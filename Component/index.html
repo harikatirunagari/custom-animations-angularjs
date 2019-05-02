@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Transitions</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script src="lib/jquery.js" type="text/javascript"></script>
+        <script src="lib/angular.js" type="text/javascript"></script>
+        
+        <script src="js/slidingAnimationController.js" type="text/javascript"></script>
+        <script src="js/customBackground.js" type="text/javascript"></script>
+        <script src="js/customHeadingDirective.js" type="text/javascript"></script>
+        <script src="js/reusableComponent.js" type="text/javascript"></script>
+        <script src="js/slidingAnimation.js" type="text/javascript"></script>
+        
+        
+        <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div ng-app="customanimationApp">
+            <div ng-controller="slidingAnimationController" class="container">
+                <div class="title">Sliding and Background Animations</div>
+                <div class="animationContainer">
+                    <custom-heading  params='{"percentageOfArea":10,"direction":"topBottom","speed":1000,"backgroundColor":"orange"}' animationeffect="backgroundTransition">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>Background Transition (Top-Bottom)</div>
+                </div>
+                
+                
+                <div class="animationContainer">
+                    <custom-heading  params='{"percentageOfArea":10,"direction":"leftRight","speed":1000,"backgroundColor":"yellow"}' animationeffect="backgroundTransition">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>Background Transition (Left-Right)</div>
+                </div>
+                
+         
+                <div class="animationContainer">
+                    <custom-heading  params='{"percentageOfArea":10,"direction":"rightLeft","speed":1000,"backgroundColor":"orange"}' animationeffect="backgroundTransition">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>Background Transition (Right-Left)</div>
+                </div>
+                
+                <div class="animationContainer">
+                    <custom-heading  params='{"percentageOfArea":10,"direction":"bottomTop","speed":1000,"backgroundColor":"orange"}' animationeffect="backgroundTransition">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>Background Transition (Bottom-Top)</div>
+                </div>
+               
+                <div class="animationContainer">
+                    <custom-heading params='{"speed":1000,"direction":"SlideDown"}' animationeffect="Slide">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>SlideDown (Top)</div>
+                </div>
+                
+                <div class="animationContainer">
+                    <custom-heading params='{"speed":1000,"direction":"SlideUp"}' animationeffect="Slide">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>SlideUp (Top)</div>
+                </div>
+                
+         
+        <div class="animationContainer">
+             <custom-heading params='{"percentageOfArea":3,"direction":"leftSlideDown","speed":10000}' animationeffect="Slide">
+                        Sun Rises !! Sun Sets !!!              
+             </custom-heading>
+             <div class='info'>SlideDown (Left)</div>
+        </div>
+                   
+               
+                
+     
+                <div class="animationContainer">
+                    <custom-heading params='{"percentageOfArea":3,"direction":"leftSlideUp","speed":10000}' animationeffect="Slide">
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>SlideUp (Left)</div>
+                </div>
+                
+      
+                <div class="animationContainer">
+                    <custom-heading params='{"percentageOfArea":3,"direction":"RightSlideDown","speed":10000}' animationeffect="Slide">8
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>SlideDown (Right)</div>                    
+                </div>
+                
+                <div class="animationContainer">
+                    <custom-heading params='{"percentageOfArea":3,"direction":"RightSlideUp","speed":10000}' animationeffect="Slide">8
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>SlideUp (Right)</div>
+                </div>
+                
+                <div class="animationContainer">
+                    <custom-heading params='{"percentageOfArea":3,"direction":"BottomSlideDown","speed":10000}' animationeffect="Slide">8
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'>SlideDown (Bottom)</div>
+                </div>
+               
+                <div class="animationContainer">
+                    <custom-heading params='{"percentageOfArea":3,"direction":"BottomSlideUp","speed":10000}' animationeffect="Slide">8
+                        Sun Rises !! Sun Sets !!!
+                    </custom-heading>
+                    <div class='info'> SlideUp (Bottom)</div>
+                </div>               
+    
+          </div>
+          
+        </div>
+    </body>
+    
+    
+</html>
