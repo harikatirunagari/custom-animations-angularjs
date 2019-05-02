@@ -1,5 +1,3 @@
-# custom-animations-angularjs
-
 # Background-and-sliding-animations
 
 Created custom directive that can :-<br/>
