@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Feb, 2018, 12:47:06 PM
+    Author     : Harika
+*/
+
+custom-heading{
+/*    display:inline-block;*/
+
+    
+}
+
+.container{
+    margin:20px auto;
+    padding:10px 10px 10px 50px;
+    border:5px solid orange;
+    width:850px;  
+    height:1300px;
+}
+
+.info{
+/*    display:none;*/
+   position: relative;
+    bottom: -52px;
+    left: 2px;
+}
+
+.animationContainer{
+    height:250px;
+    width:200px;
+    margin:20px;
+    padding:10px 5px 10px 5px;    
+    border:1px solid green;
+    float:left;
+}
+
+input[value='Animate']{
+    position: absolute;
+    bottom: -48px;
+    right: 13px;
+}
+
+input[value='Reset']{
+    position: absolute;
+    bottom: -48px;
+    right: 138px;
+}
+
+.title {
+    position: relative;
+    left: 10%;
+    font-size: 40px;
+    color: #bd6868;
+    text-decoration: underline;    
+    font-style: italic;
+}
