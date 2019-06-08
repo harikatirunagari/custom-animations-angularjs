@@ -18,6 +18,8 @@ Animate Button - The Animate Button would initiate the related animation.
 Please [Click here](https://plnkr.co/edit/olWqhcm3Au52CqZpSR50)
 only Demo [Click](https://run.plnkr.co/preview/cjwntlz35000d3a605cn7wkaq/)
 
+New plunk [new Demo](https://next.plnkr.co/edit/i85bVe5Nl5XLm9Ms)
+Demo Link [demo](https://run.plnkr.co/preview/cjwntod23000d3a6dmt989paf/)
 
 # Technologies used:- 
 Angular JS, Jquery, CSS3
