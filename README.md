@@ -16,7 +16,7 @@ Animate Button - The Animate Button would initiate the related animation.
 
 # View Demo :-
 Please [Click here](https://plnkr.co/edit/olWqhcm3Au52CqZpSR50)
-only Demo [Click](https://run.plnkr.co/i0APgvxHUyLs4u2d/)
+only Demo [Click](https://run.plnkr.co/preview/cjwntlz35000d3a605cn7wkaq/)
 
 
 # Technologies used:- 
